@@ -4,13 +4,19 @@ A collection of JavaScript tools for properly architecting the FRONT end with cl
 
 ACValidationEvents.JS
 
-Usage: 
-      MVC: @Html.TextBoxFor(m => m.PhonePrefix, new { @class = "field text", value = "", size = "3", maxlength = "3", tabindex = "8", required = "true", type = "tel", data_validation = "numeric:3:bottom", data_validation_message = "3 chars <br> (numeric)" })
-      HTML: <select id="Initiator" name="Initiator" class="field select medium" tabindex="11" data-validation="length:2" data-validation-message="You must choose a value.">
-Additional Info:
+## Usage: 
+      MVC: 
+      ```
+      @Html.TextBoxFor(m => m.PhonePrefix, new { @class = "field text", value = "", size = "3", maxlength = "3", tabindex = "8", required = "true", type = "tel", data_validation = "numeric:3:bottom", data_validation_message = "3 chars <br> (numeric)" })
+      ```
+      HTML: 
+      ```
+      <select id="Initiator" name="Initiator" class="field select medium" tabindex="11" data-validation="length:2" data-validation-message="You must choose a value.">
+      ```
+### Additional Info:
       "Right" alignment is default. Supported validation message alignments are "Bottom" or none for right;
 
- -- Supprted Properties --
+ ## Supprted Properties
  numeric:n
  numeric:n:bottom
  maxlength:n:minlength:n
