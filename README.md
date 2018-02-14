@@ -16,18 +16,18 @@ HTML:
 ## Additional Info:
       "Right" alignment is default. Supported validation message alignments are "Bottom" or none for right;
 
- ## Supprted Properties:
-       numeric:n
-      numeric:n:bottom
-       maxlength:n:minlength:n
-       maxlength:x:minlength:y:bottom
-       length:n
-       length:n:bottom
-       email <== contains @ and . minimum of 8 chars
-       fullname <==(expects 2 distinct words with a space seperation 2 characters min [for each word])
-       multicheck:nameofcheckboxgroup <==(can be applied to the PARENT element of a group of checkboxes.[this will get all checkboxes by that name contained within])
-       custom: funcValidateCustom <==(use for custom validation functions it will call this function with the source element as the parameter and your function should return true or false.)
-       checkbox
-       button <==(applies a click handler to the element - use to tell where the final validation and then submit action should occur.)
-      select:'defaultvalue' <== default value to ignore - such as "--" and "select"
-      select:'defaultvalue':bottom
+ ## Supported Properties:
+        numeric:n
+        numeric:n:bottom
+        maxlength:n:minlength:n
+        maxlength:x:minlength:y:bottom
+        length:n
+        length:n:bottom
+        email <== contains @ and . minimum of 8 chars
+        fullname <==(expects 2 distinct words with a space seperation 2 characters min [for each word])
+        multicheck:nameofcheckboxgroup <==(can be applied to the PARENT element of a group of checkboxes.[this will get all checkboxes by that name contained within])
+        custom: funcValidateCustom <==(use for custom validation functions it will call this function with the source element as the parameter and your function should return true or false.)
+        checkbox
+        button <==(applies a click handler to the element - use to tell where the final validation and then submit action should occur.)
+        select:'defaultvalue' <== default value to ignore - such as "--" and "select"
+        select:'defaultvalue':bottom
