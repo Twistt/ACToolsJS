@@ -10,7 +10,7 @@ ACValidationEvents.JS
       @Html.TextBoxFor(m => m.PhonePrefix, new { @class = "field text", value = "", size = "3", maxlength = "3", tabindex = "8", required = "true", type = "tel", data_validation = "numeric:3:bottom", data_validation_message = "3 chars <br> (numeric)" })
       ```
       HTML: 
-      ```
+     ```
       <select id="Initiator" name="Initiator" class="field select medium" tabindex="11" data-validation="length:2" data-validation-message="You must choose a value.">
       ```
 ### Additional Info:
