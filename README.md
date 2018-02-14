@@ -31,3 +31,7 @@ HTML:
         button <==(applies a click handler to the element - use to tell where the final validation and then submit action should occur.)
         select:'defaultvalue' <== default value to ignore - such as "--" and "select"
         select:'defaultvalue':bottom
+
+## Authors
+
+* **William Harris** - *Initial work* - [Arachnid Creations, Inc.](https://github.com/Twistt/ACToolsJS/)
